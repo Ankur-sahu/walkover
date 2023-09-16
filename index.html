@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="mail-drop-down">
+          <div>
+            <i class="fa-regular fa-envelope"></i> Email
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-chevrons-left"></i>
+          </div>
+        </div>
+        <div class="launch-campign-btn">Launch Campaign</div>
+        <div class="nav-container">
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Dashboard
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Template
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Domain
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Domain settings
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Logs
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Fails Logs
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Webhook
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Analytics
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Suppressions
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Download
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Email Verification
+          </div>
+          <div class="nav-item">
+            <i class="fa-solid fa-table-columns"></i> Support
+          </div>
+        </div>
+        <div class="subs-btn">Subscription</div>
+        <div class="nav-item">
+          <i class="fa-solid fa-table-columns"></i> My Company
+        </div>
+      </nav>
+      <section class="main-container">
+        <div>
+          <select name="" class="drop-down-top" id="">
+            <option>store.halfkg.com</option>
+          </select>
+          <div class="top-navigation-container">
+            <div class="nav-top-container">
+              <div class="navigation-btn">Domain Verification</div>
+              <div class="navigation-btn">Domain Settings</div>
+              <div class="navigation-btn">API integration</div>
+              <div class="navigation-btn">SMTP integration</div>
+            </div>
+            <div class="nav-blank-space"></div>
+          </div>
+          <hr />
+        </div>
+
+        <div class="domain-info">
+          <div class="domain-info-heading">
+            <span>Verify your domain</span>
+            <span>0 out of 4 verified</span>
+          </div>
+          <div class="domain-info-container">
+            <div class="domain-info-item">
+              <div class="domain-info-item-text">TXT (SPF) record</div>
+              <div class="break-line">
+                <hr class="break-line" />
+              </div>
+            </div>
+            <div class="domain-info-item">
+              <div class="domain-info-item-text">TXT (DKIM) record</div>
+              <div class="break-line">
+                <hr />
+              </div>
+            </div>
+            <div class="domain-info-item">
+              <div class="domain-info-item-text">MX record</div>
+              <div class="break-line">
+                <hr />
+              </div>
+            </div>
+            <div class="domain-info-item">
+              <div class="domain-info-item-text">CNAME</div>
+            </div>
+          </div>
+        </div>
+        <div class="list-view-container">
+          <div class="down-section">
+            <h3>
+              Login to your Domain Registrar to add the following details in
+              your DNS setting.
+            </h3>
+            <div class="down-section-container">
+              <a href="#" class="down-section-btn"> Why Verify ? </a>
+              <div
+                class="down-section-btn"
+                style="background-color: aqua; color: #ffffff"
+              >
+                Share to Developer
+              </div>
+              <div
+                class="down-section-btn"
+                style="background-color: rgb(62, 62, 161); color: #ffffff"
+              >
+                Verify
+              </div>
+            </div>
+          </div>
+          <div class="down-navigation-container">
+            <div class="nav-down-container">
+              <div class="down-nav-item">Default</div>
+              <div class="down-nav-item">GoDaddy</div>
+              <div class="down-nav-item">Cloudfare</div>
+            </div>
+            <div class="nav-down-blank-space"></div>
+          </div>
+          <div class="list-container-heading">
+            <div class="list-head-small">Type</div>
+            <div class="list-item-content">Hostname</div>
+            <div class="list-item-content">Value</div>
+            <div class="list-head-small">Status</div>
+          </div>
+          <hr class="breack-line-two" />
+          <div class="list-container-heading">
+            <div class="list-head-small">TXT</div>
+            <div class="list-item-content"><span>store.halfkg.com</span> <i class="fa-regular fa-copy"></i></div>
+            <div class="list-item-content">v=spf1 include:mailer91.com ~al</div>
+            <div class="list-head-small">Unverified</div>
+          </div>
+          <hr class="breack-line-two" />
+          <div class="list-container-heading">
+            <div class="list-head-small">TXT</div>
+            <div class="list-item-content">
+              
+              <span>spaceship._domainkey.store.halfkg.com</span> <i class="fa-regular fa-copy"></i>
+            </div>
+            <div class="list-item-content">
+              v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNAD
+              CBiQKBgQCW2UxfSdaD6l2YHlbGetsh0naUlhBYNrPFziLUKN
+              sw1VTtk/UOM5j9zDQpEHbn9jTGiNooKjVU/ 
+              i4uWBNEi3jn4409W/yeQeqF4/ye/
+              ZYUCuZscGn+9OBHuDye9FwOz7SVnAnJpA0WxWOFZrrk2z
+              epaweOytLSH1FKGkx2CsbvTwIDAQABcontent_copy
+            </div>
+            <div class="list-head-small danger">Unverified</div>
+          </div>
+          <hr class="breack-line-two" />
+          <div class="list-container-heading">
+            <div class="list-head-small">MX </div>
+            <div class="list-item-content">
+                
+                <span>store.halfkg.com</span> <i class="fa-regular fa-copy"></i>
+            </div>
+            <div class="list-item-content">
+                <div>
+                    <div>mx1.mailer91.com</div> <div>Priority 5</div>
+                </div>
+                <div>
+                    <div>mx1.mailer91.com</div> <div>Priority 10</div>
+                </div>
+            </div>
+            <div class="list-head-small danger">Unverified</div>
+          </div>
+          <hr class="breack-line-two" />
+          <div class="list-container-heading">
+            <div class="list-head-small">TXT</div>
+            <div class="list-item-content">
+                <span>spaceship._domainkey.store.halfkg.com</span> <i class="fa-regular fa-copy"></i>
+
+            </div>
+            <div class="list-item-content">
+              v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNAD
+              CBiQKBgQCW2UxfSdaD6l2YHlbGetsh0naUlhBYNrPFziLUKN
+              sw1VTtk/UOM5j9zDQpEHbn9jTGiNooKjVU/ 
+              i4uWBNEi3jn4409W/yeQeqF4/ye/
+              ZYUCuZscGn+9OBHuDye9FwOz7SVnAnJpA0WxWOFZrrk2z
+              epaweOytLSH1FKGkx2CsbvTwIDAQABcontent_copy
+            </div>
+            <div class="list-head-small danger">Unverified</div>
+          </div>
+          <hr class="breack-line-two" />
+          <div class="list-container-heading">
+            <div class="list-head-small">CNAME </div>
+            <div class="list-item-content">
+                
+                <span>mailer91.store.halfkg.com</span> <i class="fa-regular fa-copy"></i>
+            </div>
+            <div class="list-item-content">
+                emails.halfkg.com
+            </div>
+            <div class="list-head-small danger">Unverified</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

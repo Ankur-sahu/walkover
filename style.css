@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    display: flex;
+}
+nav{
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mail-drop-down{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.launch-campign-btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(169, 203, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    border-radius: 10px;
+}
+.nav-item{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 5px;
+    padding: 5px 10px;
+}
+.subs-btn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(90, 90, 187);
+    color: #ffffff;
+}
+.main-container{
+    width: 80%;
+    background-color: lightgray;
+    padding: 10px 20px;
+}
+.drop-down-top{
+    width: 150px;
+    height: 40px;
+}
+.top-navigation-container{
+    display: flex;
+}
+.nav-top-container{
+    width: 60%;
+    display: flex;
+}
+.navigation-btn{
+    width: 25%;
+    height: 40px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.nav-blank-space{
+    width: 40%;
+}
+hr{
+    width: 100%;
+    color: grey;
+}
+.domain-info{
+    padding: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.domain-info-heading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.domain-info-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.domain-info-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.domain-info-item-text{
+    width: 70%;
+}
+.break-line{
+    width: 50%;
+    color: gray;
+    margin-right: 5px;
+}
+.list-view-container{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.down-section{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.down-section>h3{
+    color: gray;
+}
+.down-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.down-section-container>a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+}
+.down-section-btn{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.down-navigation-container{
+    width: 100%;
+    display: flex;
+    
+}
+.nav-down-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.down-nav-item{
+    width: 30%;
+}
+.nav-down-blank-space{
+    width: 30%;
+}
+.list-container-heading{
+    margin-top: 10px;
+    /* padding: 5px; */
+    width: 100%;
+    display: flex;
+}
+.list-head-small{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.list-item-content{
+    width: 40%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    overflow-wrap: anywhere;
+    
+}
+.breack-line-two{
+    width: 100%;
+    color: gray;
+}
+.danger{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 157, 143);
+    color: red;
+    border-radius: 5px;
+}
